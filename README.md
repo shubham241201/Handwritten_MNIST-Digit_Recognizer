@@ -1,7 +1,10 @@
 # Handwritten-Digit-Recognizer
-This code helps you classify Handwritten Numbers using Convnets with an accuracy above 99%
 
-Handwritten Number Dataset from Kaggle was used to train the model. It was further used to develop a program to recognize Handwritten Numbers on paper and is totally suitable for real-life examples. Dataset had a total of 70,000 (28x28 px) images and 10 Labels (0-9) out of which 60,000 were used for training and rest was divided equally in Validation and Test Dataset.
+This code utilizes Convolutional Neural Networks (ConvNets) to achieve a classification accuracy of over 99% in identifying handwritten numbers.
+
+The model was trained using the Handwritten Number Dataset from Kaggle. This dataset, consisting of 70,000 images with dimensions of 28x28 pixels, and labeled with numbers from 0 to 9, was used to develop a program capable of recognizing handwritten numbers on paper. This program is well-suited for real-life scenarios.
+
+During training, 60,000 images from the dataset were used, while the remaining images were evenly split between the validation and test datasets.
 
 Keras API with Tensorflow in the backend was used to build the Deep Neural Network. OpenCV was used to detect multiple digits in a single image using Contours.
 Model Architecture:
